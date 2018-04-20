@@ -23,6 +23,6 @@ public class TsunoribaApplication extends SpringBootServletInitializer {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String getSomething() {
-        return "ツノリバ！";
+        return "ツノリバ！<br>GitHub連動！";
     }
 }
